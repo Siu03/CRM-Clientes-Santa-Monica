@@ -28,6 +28,7 @@
                     <div class="card-body">
 
                         <a href="{{ route('admin.users.create') }}" class="btn btn-primary mb-3">Nuevo Usuario</a>
+                        {{-- <a href="{{ route('admin.users.export') }}" class="btn btn-success mb-3">Exportar a Excel</a> --}}
 
                         <table class="table table-bordered" id="user_table">
                             <thead>

@@ -30,7 +30,7 @@
                         </p>
                     </a>
                 </li>
-                <li class="nav-item">
+                {{-- <li class="nav-item">
                     <a href="{{ route('admin.projects.index') }}" class="nav-link">
                         <i class="nav-icon fas fa-project-diagram"></i>
                         <p>
@@ -45,7 +45,7 @@
                             Tareas
                         </p>
                     </a>
-                </li>
+                </li> --}}
                 <li class="nav-item">
                     <a href="#" class="nav-link" onclick="event.preventDefault(); document.getElementById('logoutform').submit();">
                         <p>
